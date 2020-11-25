@@ -14,10 +14,11 @@ link_directories(${LINK_DIR})
 
 set(Lib_DIR so)
 link_directories(${Lib_DIR})
-
-
-add_library(TFlite_Lib tensorflowlite)
-SET_TARGET_PROPERTIES(TFlite_Lib PROPERTIES OUTPUT_NAME "hello")
+add_library(TFLite_LIB STATIC IMPORTED)
+ 
+set_target_properties(TFLite_LIB
+                      PROPERTIES IMPORTED_LOCATION
+                      ${Lib_DIR}/libtensorflowlite.a)
 
 find_package(OpenCV 3 REQUIRED)
 
@@ -31,4 +32,4 @@ add_executable(deeplab_v3_Test
         tflite_segment.cpp)
         
 target_link_libraries(deeplab_v3_Test ${OpenCV_LIBS})
-target_link_libraries(deeplab_v3_Test ${TFlite_Lib})
+target_link_libraries(deeplab_v3_Test ${TFLite_LIB})
