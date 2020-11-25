@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/pictureRecognition.out.dir/pictureRecognition.cpp.o  -o pictureRecognition.out 

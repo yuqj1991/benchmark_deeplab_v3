@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/segment.out.dir/segment.cpp.o  -o segment.out 

@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/rasterDemo.cpp
+fstream
+-
+sstream
+-
+iostream
+-
+chrono
+-
+MNN/MNNDefine.h
+-
+MNN/Tensor.hpp
+-
+MNN/Interpreter.hpp
+-
+MNN_generated.h
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/MNN_generated.h
+core/TensorUtils.hpp
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/core/TensorUtils.hpp
+core/Execution.hpp
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/core/Execution.hpp
+core/Backend.hpp
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/core/Backend.hpp
+rapidjson/document.h
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/rapidjson/document.h
+rapidjson/stringbuffer.h
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/rapidjson/stringbuffer.h
+rapidjson/writer.h
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/rapidjson/writer.h
+

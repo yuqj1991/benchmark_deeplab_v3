@@ -1,0 +1,9 @@
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/edit_cache.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/rasterDemo.out.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/transformerDemo.out.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/rebuild_cache.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/expressDemo.out.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/pictureRecognition.out.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/pictureRotate.out.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/multiPose.out.dir
+/home/yuqianjin/workspace/BrixLab/MNN/demo/exec/build/CMakeFiles/segment.out.dir
